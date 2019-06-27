@@ -32,6 +32,6 @@ So, let's just test things:
  - **Good**: More stable, ITCZ not too lagged, but also not too far poleward during solstice.
  - **Bad**: Poles still rather hot in summer and cold in winter, ITCZ still lagged (less so, but still...).
 
- That's what I feel everyone should be aware of: _Depending on what you want to do with an aquaplanet model such as MiMA, it is important to chose a reasonable mixed layer depth. In particular, if one adds land, the much lower heat capacity of land versus water means that whatever works for an aquaplanet might not work for configurations with land_.
+ That's what I feel everyone should be aware of: **_Depending on what you want to do with an aquaplanet model such as MiMA, it is important to chose a reasonable mixed layer depth. In particular, if one adds land, the much lower heat capacity of land versus water means that whatever works for an aquaplanet might not work for configurations with land_**.
 
  One solution is implemented in MiMA: Make the mixed layer depth a function of latitude. That way, the tropics are allowed to adjust quickly to the moving solar forcing, whereas the poles are not allowed to cool or heat too fast during the solstice seasons.

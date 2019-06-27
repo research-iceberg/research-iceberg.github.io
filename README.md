@@ -1,6 +1,4 @@
-# Journal of the Atmospheric Mistakes (JAM)
-
-This journal was created after hearing one of many inspiring lectures by Isaac Held. 
+The **Journal of the Atmospheric Mistakes (JAM)** was created after hearing one of many inspiring lectures by Isaac Held. 
 The lecture was a about the history of gephyiscal fluid dynamics. The introductory words
 mentioned that we need to know history to avoid repeating mistakes. 
 But it struck me that we don't publish our mistakes in academia, and therefore we currently

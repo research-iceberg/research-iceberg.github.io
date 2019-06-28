@@ -13,4 +13,4 @@ Papers are called which describe
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your paper.
 
 # Contributions
-- **Martin Jucker**, Things I learned when adding a mixed layer to a cloudless "aquaplanet" (to be added).
+- **Martin Jucker**, Things I learned when adding a mixed layer to a cloudless "aquaplanet" (under review).

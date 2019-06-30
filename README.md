@@ -4,15 +4,19 @@ The **Journal of Unpublished Research** was created after hearing one of many in
 The lecture was a about the history of geophysical fluid dynamics. The introductory words
 mentioned that we need to know history to avoid repeating mistakes.
 But during the lectures, only the greatest minds and their biggest breakthroughs were highlighted, and it struck me that we don't publish our mistakes in academia, and therefore we currently
-**have no system to make others aware of our mistakes so that they don't repeat them**.
+**have no system to make others aware of our mistakes, dead ends and trials so that they don't repeat them**.
 
-Therefore, I have founded _JUR [char]_, so that the brave and the bold can let others know what mistakes they made or generally which things they tried that didn't work, so that others shall be warned.
+Therefore, _JUR [char]_ has been founded so that the brave and the bold can let others know what mistakes they made or generally which things they tried that didn't work, so that others shall be warned.
 
-Papers are called which describe
-- research and/or coding errors which have a high potential of being repeated by many more people in the field.
-- the environment, causes and (if possible) solutions to the mistakes.
+The journal aims to be open to all science and it calles for papers which describe
+- research and/or coding errors and dead ends which have a high potential of being repeated by many more people in the field.
+- the environment, causes and (if possible) solutions.
 
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your paper.
 
 # Articles
-- **Martin Jucker**, Things I learned when adding a mixed layer to a cloudless "aquaplanet" (under review).
+[tk need to find out how to get a DOI which is not just dynamic (as is Zenodo with github releaes), but which can also be attributed to different authors]
+
+## Volume 1
+
+1. **Martin Jucker**, The surface of an aquaplanet GCM (under review).

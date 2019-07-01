@@ -11,7 +11,7 @@ Studying the effects of the stratosphere and its coupling to the troposphere in 
 There was an obvious gap to close in the model hierarchy between the gray radation schemes and full GCMs, which required the inclusion of the radiative effects of stratospheric ozone. Therefore, we decided to build MiMA, which represents one step up from the Frierson gray radation model [[Frierson _et al._ (2006)](http://journals.ametsoc.org/doi/abs/10.1175/JAS3753.1), [Frierson _et al._ (2007)](http://journals.ametsoc.org/doi/abs/10.1175/JAS3935.1)] by replacing the gray radiation with the full radiative transfer code RRTM (Rapid Radiative transfer Model, [RRTM, Mlawer _et al._ (1997)](http://doi.wiley.com/10.1029/97JD00237)). A short introductory movie for MiMA can be found in Fig. 1.
 
 [![Figure 1](http://img.youtube.com/vi/8UfaFnGtCrk/0.jpg)](http://www.youtube.com/watch?v=8UfaFnGtCrk "Watch on YouTube")
-<p style="font-size:x-small;">Figure 1: A 30-second introduction to the Model of an idealized Moist Atmosphere</p>
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 1</span>: A 30-second introduction to the Model of an idealized Moist Atmosphere</p>
 
 Naively, this means simply starting from Frierson's model and exchanging the call to radiation. Everything else could be left as is, as the model has been used very successfully for many studies involving moist dynamics [tk Frierson model applications].
 
@@ -27,7 +27,8 @@ Indeed, it soon turned out that by far most of the development time of MiMA went
 
 [Frierson _et al._ (2006)](http://journals.ametsoc.org/doi/abs/10.1175/JAS3753.1) use a mixed layer depth of 10m. If MiMA is run with the same depth, the poles will heat a lot during summer and cool a lot during winter. Setting the radiation up as per Earth's astronomical parameters (obliquity, solar constant, rotation rate, radius), the model will crash because the winter pole will become too cold for the moist dynamics (Fig. 2).
 
-[tk Figure 2 shows polar temperature timeseries until crash]
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 2</span>: polar temperature timeseries until crash</p>
+
 
 Thus, the mixed layer should be increased at least until the poles do not cause the simulation to fail. For realistic polar temperatures in both winter and summer it should be increased even more, and we found a value of about 100 meters to be about right.
 
@@ -35,7 +36,7 @@ Thus, the mixed layer should be increased at least until the poles do not cause 
 
 With such a deep mixed layer, the model starts being very stable. Unfortunately, it causes the tropics to be too stable: The ITCZ [tk acronym?] does not show any real seasonal cycle anymore but simply sticks to the equator. The little that it does move is lagged by about three months with respect to the solar forcing, such that such important things as the tropical monsoons around the globe are delayed by weeks to months (Fig. 3).
 
-[tk Figure 3 shows ITCZ (not) moving during the seasonal cycle for deep tropics, and much more moving for very shallow tropics. Maybe add panels showing the mixed layer depth.]
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 3</span>: ITCZ (not) moving during the seasonal cycle for deep tropics, and much more moving for very shallow tropics. Maybe add panels showing the mixed layer depth.</p>
 
 Therefore, depending on which phenomena are important for a given research project, the mixed layer should either be deep or shallow. The most realistic cases are obtained if the mixed layer is shallow in the tropics (10-20m), and deep at the poles (~100m). Therefore, the heat capacity of the mixed layer can be adjusted to be constant or to have different values in the tropics and the poles, with a linear transition region in-between (Fig. 3).
 

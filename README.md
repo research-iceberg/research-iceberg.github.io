@@ -15,8 +15,8 @@ The journal aims to be open to all science and it calles for papers which descri
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your paper.
 
 # Articles
-[tk need to find out how to get a DOI which is not just dynamic (as is Zenodo with github releaes), but which can also be attributed to different authors]
+[tk need to find out how to get a DOI which is not just dynamic (as is Zenodo with github releases), but which can also be attributed to different authors]
 
 ## Volume 1
 
-1. **Martin Jucker**, The surface of an aquaplanet GCM (under review).
+1. **Martin Jucker**, [The surface of an aquaplanet GCM (under review)](papers/MiMA_mixed_layer.md).

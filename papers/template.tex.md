@@ -56,7 +56,7 @@ Or actual equation:
 \begin{equation}\label{eq1}
   \sum_i x_i = \int_0^\infty f(y)\mathrm{d}y
 \end{equation}
-This was Eq.~(\ref{eq1}).
+This was Eq.$~(\ref{eq1})$.
 
 If this sounds too spooky (it's not!), then there are two more options:
 

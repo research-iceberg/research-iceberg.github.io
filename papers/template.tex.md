@@ -47,23 +47,33 @@ As proper figure and citation referencing as we love it from LaTex does not work
 
 <p style="font-size:x-small;"><span style="font-weight:bold;">Table 1</span>: Table caption.</p>
 
-__Maths__ is another partly missing component here. Using [html ampersand symbols](https://sites.psu.edu/symbolcodes/codehtml/#math) and greek letters, we can emulate a few simple things such as
+# Maths
+__Maths__ is another partly missing component here. The _Journal of Unpublished Research_ repository is setup with [TeXify](https://github.com/apps/texify) to render LaTeX commands within markdown. This is why the extension to this template is `.tex.md`. Embed all of the maths in dollar signs, just like in LaTeX. When uploading to JUR, all text between dollar signs will be converted to maths:
+
+Inline equation: $\sum_i x_i = \int_0^\infty f(y)\mathrm{d}y$. Display equation:
+$$\sum_i x_i = \int_0^\infty f(y)\mathrm{d}y$$
+Or actual equation:
+\begin{equation}\label{eq1}
+  \sum_i x_i = \int_0^\infty f(y)\mathrm{d}y
+\end{equation}
+This was Eq.~(\ref{eq1}).
+
+If this sounds too spooky (it's not!), then there are two more options:
+
+1. Use [html ampersand symbols](https://sites.psu.edu/symbolcodes/codehtml/#math) and greek letters, we can emulate a few simple things such as
 
 ```
 &alpha;, &beta;, &Gamma;, &sum;<sub>i</sub>_x<sub>i</sub>_ &gt; &part;_f_/&part;_y_ + &prod;<sub>i</sub>_z<sub>i</sub>_
 ```
 which renders as &alpha;, &beta;, &Gamma;, &sum;<sub>i</sub>_x<sub>i</sub>_ &gt; &part;_f_/&part;_y_ + &prod;<sub>i</sub>_z<sub>i</sub>_.
 
-For more complicated formulae, either use the [CodeCogs online editor](https://www.codecogs.com/latex/eqneditor.php) and then copy-paste the resulting html code into the markdown file like so:
+2. For more complicated formulae, either use the [CodeCogs online editor](https://www.codecogs.com/latex/eqneditor.php) and then copy-paste the resulting html code into the markdown file like so:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=x&space;=&space;\frac{-b&space;\pm&space;\sqrt{b^2-4ac}}{2a}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{-b&space;\pm&space;\sqrt{b^2-4ac}}{2a}" title="x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}" /></a>&emsp;(1),
 
 or create an image with any equation editor and embed the image of the equation.
 
-OR write your markdown in a file called _somefilename.tex.md_, and embed all of the maths in $.$ signs. When uploading to JUR, all text between $.$ signs will be converted to LaTex:
-
-$\sum_i x_i = \int_0^\infty f(y)\mathrm{d}y$.
-$$\sum_i x_i = \int_0^\infty f(y)\mathrm{d}y$$
+But the best and simplest way to do it is as described above, with simple dollar signs and hand-added equation numbering if required.
 
 # Section title
 

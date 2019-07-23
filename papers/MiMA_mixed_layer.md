@@ -14,7 +14,7 @@ This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 In
 
 
 ##### Keywords
-climate science, general circulation models
+climate science, general circulation models, mixed layer ocean
 
 # Introduction
 
@@ -72,9 +72,9 @@ One thing to keep in mind here is that the simple default Q-flux is zonally symm
 
 ## Albedo
 
-Another a-priori missing component of MiMA is sea ice. This is not a major shortcoming since ocean dynamics, biogeochemistry and others are willingly left out as well to keep the model simple. The main effect of sea ice on atmospheric dynamics is arguably the albedo effect. Luckily, the albedo can be adjusted rather easily to account for ice, at least in a static sense. However, we note that adding e.g. higher albedo south of 65&deg;S to mimic the effect of Antarctica does indeed change the strength and position of the Southern Hemisphere eddy driven jet, but the corrections are minimal. Of course, it could still be important if one's interest lies in the Southern Ocean for instance (Fig. 7).
+Another _a priori_ missing component of MiMA is sea ice and snow cover. This is not a major shortcoming since ocean dynamics, biogeochemistry and others are willingly left out as well to keep the model simple. The main effect of sea ice on atmospheric dynamics is arguably the albedo effect. Luckily, the albedo can be adjusted rather easily to account for ice, at least in a static sense. Fig. 7 shows examples of adding higher albedo south of 65&deg;S to mimic the effect of Antarctica and different choices for meridional albedo profiles.
 
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 7</span>: Effect of "sea ice" albedo in the Southern Ocean in MiMA.</p>
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 7</span>: Illustration of different meridional albedo profiles in MiMA.</p>
 
 # Conclusions
 
@@ -85,6 +85,9 @@ This paper shows some of the effects of the most important parameters using MiMA
 Note that the default setup for MiMAv1 is constant mixed layer depth. This is to make it as simple as possible, not to make  it as realistic as possible. This will be amended for version 2.0 of MiMA.
 
 # Acknowledgments
+
+The author acknowledges the support by the ARC Centre of Excellence for Climate Extremes under grant CE170100023 and ARC grant FL150100035.
+ERA-Interim data obtained from http://apps.ecmwf.int/datasets/data/interim_full_daily/ on 16/07/2015. It was converted to netcdf and made available to the author by ARCCSS ARC Centre of Excellence for Climate System Science www.climatescience.org.au.
 
 
 *Journal of Unpublished Research, Volume 1, Paper 1, August 2019*

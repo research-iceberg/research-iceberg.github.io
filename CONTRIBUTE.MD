@@ -5,7 +5,9 @@ There are two ways to submit a paper to the Journal of Unpublished Research:
  - Make sure you have a GitHub account (free and useful)
  - Clone the JUR repository at https://github.com/unpublished-publishing/JUR
  - Create a new branch, preferably with the author name
- - Copy the file `papers/template.md` to `papers/new_file_name.md`
+ - Copy the file `papers/template.tex.md` to `papers/new_file_name.tex.md`
+ - Important: DO NOT COPY `papers/template.md`! COPY `papers/template.tex.md` INSTEAD!
+ - TeXify will convert all `.tex.md` files into `.md` files by rendering LaTeX code within $.$ signs
  - Write your paper in this new markdown file
  - Create a pull request into the master branch
  - Wait for acceptance by the editor

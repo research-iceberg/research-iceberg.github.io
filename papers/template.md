@@ -60,6 +60,11 @@ For more complicated formulae, either use the [CodeCogs online editor](https://w
 
 or create an image with any equation editor and embed the image of the equation.
 
+OR write your markdown in a file called _somefilename.tex.md_, and embed all of the maths in <img src="/papers/tex/ac4bb7b235a967476d0ec663bb9588c2.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662248499999905pt height=14.15524440000002pt/> signs. When uploading to JUR, all text between <img src="/papers/tex/ac4bb7b235a967476d0ec663bb9588c2.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662248499999905pt height=14.15524440000002pt/> signs will be converted to LaTex:
+
+<img src="/papers/tex/4be9bdc715d42624aea2a801031dee3f.svg?invert_in_darkmode&sanitize=true" align=middle width=139.00879575pt height=28.26507089999998pt/>.
+<p align="center"><img src="/papers/tex/a7a17e29d81bf0e27fb93d79395bcf1e.svg?invert_in_darkmode&sanitize=true" align=middle width=145.4081574pt height=42.66009165pt/></p>
+
 # Section title
 
 ## Subsection title

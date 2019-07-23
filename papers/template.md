@@ -54,7 +54,7 @@ Inline equation: <img src="/papers/tex/4be9bdc715d42624aea2a801031dee3f.svg?inve
 <p align="center"><img src="/papers/tex/a7a17e29d81bf0e27fb93d79395bcf1e.svg?invert_in_darkmode&sanitize=true" align=middle width=145.4081574pt height=42.66009165pt/></p>
 Or actual equation:
 <p align="center"><img src="/papers/tex/473a15144911f984247f94da8ab0f64b.svg?invert_in_darkmode&sanitize=true" align=middle width=422.8410318pt height=42.66009165pt/></p>
-This was Eq.~(\ref{eq1}).
+This was Eq.<img src="/papers/tex/5fd434a80e9101036c41361e4870530e.svg?invert_in_darkmode&sanitize=true" align=middle width=30.6392196pt height=24.65753399999998pt/>.
 
 If this sounds too spooky (it's not!), then there are two more options:
 

@@ -47,23 +47,31 @@ As proper figure and citation referencing as we love it from LaTex does not work
 
 <p style="font-size:x-small;"><span style="font-weight:bold;">Table 1</span>: Table caption.</p>
 
-__Maths__ is another partly missing component here. Using [html ampersand symbols](https://sites.psu.edu/symbolcodes/codehtml/#math) and greek letters, we can emulate a few simple things such as
+# Maths
+__Maths__ is another partly missing component here. The _Journal of Unpublished Research_ repository is setup with [TeXify](https://github.com/apps/texify) to render LaTeX commands within markdown. This is why the extension to this template is `.tex.md`. Embed all of the maths in dollar signs, just like in LaTeX. When uploading to JUR, all text between dollar signs will be converted to maths:
+
+Inline equation: <img src="/papers/tex/4be9bdc715d42624aea2a801031dee3f.svg?invert_in_darkmode&sanitize=true" align=middle width=139.00879575pt height=28.26507089999998pt/>. Display equation:
+<p align="center"><img src="/papers/tex/a7a17e29d81bf0e27fb93d79395bcf1e.svg?invert_in_darkmode&sanitize=true" align=middle width=145.4081574pt height=42.66009165pt/></p>
+Or actual equation:
+<p align="center"><img src="/papers/tex/473a15144911f984247f94da8ab0f64b.svg?invert_in_darkmode&sanitize=true" align=middle width=422.8410318pt height=42.66009165pt/></p>
+This was Eq.~(\ref{eq1}).
+
+If this sounds too spooky (it's not!), then there are two more options:
+
+1. Use [html ampersand symbols](https://sites.psu.edu/symbolcodes/codehtml/#math) and greek letters, we can emulate a few simple things such as
 
 ```
 &alpha;, &beta;, &Gamma;, &sum;<sub>i</sub>_x<sub>i</sub>_ &gt; &part;_f_/&part;_y_ + &prod;<sub>i</sub>_z<sub>i</sub>_
 ```
 which renders as &alpha;, &beta;, &Gamma;, &sum;<sub>i</sub>_x<sub>i</sub>_ &gt; &part;_f_/&part;_y_ + &prod;<sub>i</sub>_z<sub>i</sub>_.
 
-For more complicated formulae, either use the [CodeCogs online editor](https://www.codecogs.com/latex/eqneditor.php) and then copy-paste the resulting html code into the markdown file like so:
+2. For more complicated formulae, either use the [CodeCogs online editor](https://www.codecogs.com/latex/eqneditor.php) and then copy-paste the resulting html code into the markdown file like so:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=x&space;=&space;\frac{-b&space;\pm&space;\sqrt{b^2-4ac}}{2a}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{-b&space;\pm&space;\sqrt{b^2-4ac}}{2a}" title="x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}" /></a>&emsp;(1),
 
 or create an image with any equation editor and embed the image of the equation.
 
-OR write your markdown in a file called _somefilename.tex.md_, and embed all of the maths in <img src="/papers/tex/ac4bb7b235a967476d0ec663bb9588c2.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662248499999905pt height=14.15524440000002pt/> signs. When uploading to JUR, all text between <img src="/papers/tex/ac4bb7b235a967476d0ec663bb9588c2.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662248499999905pt height=14.15524440000002pt/> signs will be converted to LaTex:
-
-<img src="/papers/tex/4be9bdc715d42624aea2a801031dee3f.svg?invert_in_darkmode&sanitize=true" align=middle width=139.00879575pt height=28.26507089999998pt/>.
-<p align="center"><img src="/papers/tex/a7a17e29d81bf0e27fb93d79395bcf1e.svg?invert_in_darkmode&sanitize=true" align=middle width=145.4081574pt height=42.66009165pt/></p>
+But the best and simplest way to do it is as described above, with simple dollar signs and hand-added equation numbering if required.
 
 # Section title
 

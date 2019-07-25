@@ -37,29 +37,29 @@ Indeed, it soon turned out that by far most of the development time of MiMA went
 
 ## The seasonal cycle at the poles
 
-[Frierson _et al._ (2006)](http://journals.ametsoc.org/doi/abs/10.1175/JAS3753.1) use a mixed layer depth of 10m. If MiMA is run with the same depth, the poles will heat a lot during summer and cool a lot during winter. Setting the radiation up as per Earth's astronomical parameters (obliquity, solar constant, rotation rate, radius), the model will crash because the winter pole will become too cold for the moist dynamics (Fig. 2).
+[Frierson _et al._ (2006)](http://journals.ametsoc.org/doi/abs/10.1175/JAS3753.1) use a mixed layer depth of 10m. If MiMA is run with the same depth, and setting the radiation to Earth's astronomical parameters (obliquity, solar constant, rotation rate, radius), the poles will heat a lot during summer and cool a lot during winter (Fig. 2, solid lines).
 
-
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 2</span>: polar temperature timeseries at 10m mixed layer depth.</p>
+![Figure 2](ts_amp.pdf "Polar and tropical temperature seasonal cycle")
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 2</span>: polar and tropical temperature timeseries at 10m mixed layer depth.</p>
 
 
 Thus, the mixed layer should be increased at least until the poles do not cause the simulation to fail. For realistic polar temperatures in both winter and summer it should be increased even more, and we found a value of about 100 meters to be about right.
 
 ## The seasonal cycle in the tropics
 
-With such a deep mixed layer, the model starts being very stable. Unfortunately, it causes the tropics to be too stable: The InterTropical Convergence Zone (ITCZ) does not show any real seasonal cycle anymore but simply sticks to the equator. The little that it does move is lagged by about three months with respect to the solar forcing, such that such important things as the tropical monsoons around the globe are delayed by weeks to months (Fig. 3).
+With such a deep mixed layer, the model starts being very stable. Unfortunately, it causes the tropics to be too stable: The InterTropical Convergence Zone (ITCZ) does not show any real seasonal cycle anymore but simply sticks to the equator. The little that it does move is lagged by about three months with respect to the solar forcing, such that such important things as the tropical monsoons around the globe are delayed by weeks to months (Fig. 2, dashed lines).
 
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 3</span>: ITCZ (not) moving during the seasonal cycle for deep tropics, and much more moving for very shallow tropics. Maybe add panels showing the mixed layer depth.</p>
+Therefore, depending on which phenomena are important for a given research project, the mixed layer should either be deep or shallow. The most realistic cases are obtained if the mixed layer is shallow in the tropics (10-20m), and deep at the poles (50-100m). Therefore, the heat capacity of the mixed layer can be adjusted to be constant or to have different values in the tropics and the poles, with a linear transition region in-between (Fig. 3).
 
-Therefore, depending on which phenomena are important for a given research project, the mixed layer should either be deep or shallow. The most realistic cases are obtained if the mixed layer is shallow in the tropics (10-20m), and deep at the poles (100m). Therefore, the heat capacity of the mixed layer can be adjusted to be constant or to have different values in the tropics and the poles, with a linear transition region in-between (Fig. 4).
-
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 4</span>: With a meridionally varying mixed layer depth, the ITCZ can move and follow peak solar input more freely, while the poles do not become too cold nor too warm.</p>
+![Figure 3](itcz.pdf "Annual cycle of precipitation")
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 3</span>: With a meridionally varying mixed layer depth, the ITCZ can move and follow peak solar input more freely, while the poles do not become too cold nor too warm.</p>
 
 ## Effect of land
 
-MiMA has the option of adding "land" in the sense of reduced mixed layer depth (the heat capacity of rock is about one thousand times lower than that of water). As a zeroth order approximation, land therefore is still an infinite source of water vapor to the atmosphere. This can either be in the form of an external file (containing a a land-sea mask as is often used in comprehensive models), slaving it to surface topography (by setting an altitude threshold above which any grid point is considered land), or by adding arbitrary rectangles or patches of land (Fig. 5). Then, one can define a different heat capacity for any grid points considered land. As a consequence, whenever adding land, the zonal mean heat capacity is lowered, and the effect of this new mixed layer depth distribution should first be tested before conducting research with the chosen setup. For instance, using a realistic land mask will add the Antarctic continent at the South Pole, which, depending on the setup, might cause problems at high southern latitudes because the South Pole now suddenly has a very low heat capacity (see above discussion).
+MiMA has the option of adding "land" in the sense of reduced mixed layer depth (the heat capacity of rock is about one thousand times lower than that of water). As a zeroth order approximation, land therefore is still an infinite source of water vapour to the atmosphere. This can either be in the form of an external file (containing a a land-sea mask as is often used in comprehensive models), slaving it to surface topography (by setting an altitude threshold above which any grid point is considered land), or by adding arbitrary rectangles or patches of land (Fig. 4). Then, one can define a different heat capacity for any grid points considered land. As a consequence, whenever adding land, the zonal mean heat capacity is lowered, and the effect of this new mixed layer depth distribution should first be tested before conducting research with the chosen setup. For instance, using a realistic land mask will add the Antarctic continent at the South Pole, which, depending on the setup, might cause problems at high southern latitudes because the South Pole now suddenly has a very low heat capacity (see above discussion).
 
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 5</span>: Different land configurations in MiMA.</p>
+![Figure 4](heat_cap.pdf "Examples of mixed layer depth setups")
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 4</span>: Different land configurations in MiMA.</p>
 
 ## Ocean heat transport
 
@@ -67,14 +67,14 @@ As a consequence of neglecting any ocean dynamics is that the incoming solar ene
 
 One thing to keep in mind here is that the simple default Q-flux is zonally symmetric, and is also active over any regions considered "land" as defined above. Thus, if one strives for realism in the simulated climate and uses real topography and land-sea mask, one might also think about either not using any Q-flux at all or providing an input file with more a sophisticated structure. MiMAv2 again has seen some development in that direction and includes more realistic Q-fluxes which are zero over (realistic) land.
 
-
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 6</span>: Default meridional ocean heat transport. Meridional width and amplitude are runtime input parameters.</p>
+![Figure 5](qflux.pdf)
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 5</span>: Default meridional ocean heat transport. Meridional width and amplitude are runtime input parameters.</p>
 
 ## Albedo
 
-Another _a priori_ missing component of MiMA is sea ice and snow cover. This is not a major shortcoming since ocean dynamics, biogeochemistry and others are willingly left out as well to keep the model simple. The main effect of sea ice on atmospheric dynamics is arguably the albedo effect. Luckily, the albedo can be adjusted rather easily to account for ice, at least in a static sense. Fig. 7 shows examples of adding higher albedo south of 65&deg;S to mimic the effect of Antarctica and different choices for meridional albedo profiles.
+Another _a priori_ missing component of MiMA is sea ice and snow cover. This is not a major shortcoming since ocean dynamics, biogeochemistry and others are willingly left out as well to keep the model simple. The main effect of sea ice on atmospheric dynamics is arguably the albedo effect. Luckily, the albedo can be adjusted rather easily to account for ice, at least in a static sense. Fig. 6 shows examples of adding higher albedo south of 65&deg;S to mimic the effect of Antarctica and different choices for meridional albedo profiles.
 
-<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 7</span>: Illustration of different meridional albedo profiles in MiMA.</p>
+<p style="font-size:x-small;"><span style="font-weight:bold;">Figure 6</span>: Illustration of different meridional albedo profiles in MiMA.</p>
 
 # Conclusions
 

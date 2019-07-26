@@ -16,10 +16,10 @@ Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your 
 
 Looking forward to many contributions,
 </br>
-Martin Jucker, Editor
+Martin Jucker, Editor in Chief
 
 # Articles
 
 ## Volume 1
 
-1. **Martin Jucker**, [The surface of an aquaplanet GCM (under review)](papers/MiMA_mixed_layer.md).
+1. **Martin Jucker**, [The surface of an aquaplanet GCM (under review)](papers/M_Jucker_201907/MiMA_mixed_layer.md).

@@ -22,4 +22,4 @@ Martin Jucker, Editor in Chief
 
 ## Volume 1
 
-1. **Martin Jucker**, [The surface of an aquaplanet GCM (under review)](papers/M_Jucker_201907/MiMA_mixed_layer.md).
+1. **Martin Jucker**, The surface of an aquaplanet GCM [(under review)](https://github.com/unpublished-publishing/JUR/blob/mima_mixed_layer/papers/M_Jucker_201907/MiMA_mixed_layer.md).

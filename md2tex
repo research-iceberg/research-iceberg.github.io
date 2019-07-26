@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#$1: markdown file to be converted
+#$2: final latex file to be converted to
+
+pandoc --from=markdown_github --to=latex  $1 -o $2 

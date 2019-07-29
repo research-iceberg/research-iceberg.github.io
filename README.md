@@ -1,25 +1,31 @@
-# Journal of Unpublished Research
+# Iceberg
 
-The **Journal of Unpublished Research** was created after hearing one of many inspiring lectures by Isaac Held at the [22nd Conference on Atmospheric and Oceanic Fluid Dynamics](https://www.ametsoc.org/index.cfm/ams/meetings-events/ams-meetings/22nd-conference-on-atmospheric-and-oceanic-fluid-dynamics/) in Portland, Maine 2019.
-The lecture was a about the history of geophysical fluid dynamics. The introductory words
-mentioned that we need to know history to avoid repeating mistakes.
-But during the lectures, only the greatest minds and their biggest breakthroughs were highlighted, and it struck me that we don't publish our mistakes in academia, and therefore we currently
-**have no system to make others aware of our mistakes, dead ends and trials so that they don't repeat them**.
+The **Iceberg** is a collection of scientific works which do not fit into any traditional journal
+or software repository. It aims at making available the things which are good to know for fellow
+researchers. Examples are experience with trial-and-error approaches which eventually did or did not
+make it to a journal publications. Or general scientific expertise, such as how to best set up an experiment
+(numerical or not) to avoid common pitfalls which others are likely to encounter. Or a blog-style post on
+best practices and/or software recommendations.
 
-Therefore, _JUR [d&#658;&#601;r]_ has been founded so that the brave and the bold can let others know what mistakes they made or generally which things they tried that didn't work, so that others shall be warned.
+In short, we want to reveal the bulk of the iceberg, where the tip represents traditional journal publications.
 
-The journal aims to be open to all science and it calls for papers which describe
+It came about by thinking about the importance of learning from our mistakes, which is in direct conflict with the
+all too present pressure to only show success and what worked, while everything we tried and didn't work does not
+get published. We want to enable learning from mistakes in academia. "Mistakes" here is a very broad term for trial-and-error, how to choose reasonable parameters for a given experiment, how to compute derived variables, etc.
+
+Because without this, we have no system to make others aware of our mistakes, dead ends and trials to make sure they
+don't repeat them.
+
+The Iceberg functions like a scientific journal in that it consists of written contributions which are peer-reviewed and obtain a permanent DOI. It aims to be open to all science and it calls for papers which describe
 - research and/or coding errors and dead ends which have a high potential of being repeated by many more people in the field.
 - the environment, causes and (if possible) solutions.
 
-Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your paper.
+Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your contribution.
 
-Looking forward to many contributions,
+Looking forward to much incovered science,
 </br>
 Martin Jucker, Editor in Chief
 
 # Articles
 
-## Volume 1
-
-1. **Martin Jucker**, The surface of an aquaplanet GCM [(under review)](https://github.com/unpublished-publishing/JUR/blob/mima_mixed_layer/papers/M_Jucker_201907/MiMA_mixed_layer.md).
+1. **Martin Jucker**, The surface of an aquaplanet GCM [(under review)](https://github.com/researc-iceberg/blob/mima_mixed_layer/papers/M_Jucker_201907/MiMA_mixed_layer.md).

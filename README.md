@@ -14,7 +14,7 @@ get published. We want to enable learning from mistakes in academia. "Mistakes" 
 Because without this, we have no system to make others aware of our mistakes, dead ends and trials to make sure they
 don't repeat them.
 
-The Iceberg functions like a scientific journal in that it consists of written contributions which are peer-reviewed and obtain a permanent DOI. It aims to be open to all science and it calls for papers which describe
+Iceberg functions like a scientific journal in that it consists of written contributions which are peer-reviewed and obtain a permanent DOI. It aims to be open to all science and it calls for papers which describe
 - research and/or coding errors and dead ends which have a high potential of being repeated by many more people in the field.
 - the environment, causes and (if possible) solutions.
 

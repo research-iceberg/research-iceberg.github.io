@@ -3,5 +3,7 @@
 
 @import "{{ site.theme }}";
 #header-wrap {
-  background-image: url("assets/Iceberg_logo_1k.png");
+  background-image: url("https://research-iceberg.github.io/assets/Iceberg_logo_tip.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

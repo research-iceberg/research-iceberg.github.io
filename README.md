@@ -1,5 +1,3 @@
-<img src="assets/Iceberg_logo_1k.png" width=200 style="float:right;margin-left:10px;margin-bottom:10px;margin-top:5px"/>
-
 **Iceberg** is a collection of scientific works which do not fit into any traditional journal
 or software repository. It aims at making available the things which are good to know for fellow
 researchers. Examples are experience with trial-and-error approaches which eventually did or did not

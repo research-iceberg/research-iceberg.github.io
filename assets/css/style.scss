@@ -2,8 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
-#header-wrap {
+#header_wrap {
   background-image: url("https://research-iceberg.github.io/assets/Iceberg_logo_tip.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+#main_content_wrap {
+  background-image: url("https://research-iceberg.github.io/assets/Iceberg_logo_bulk.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
 }

@@ -1,9 +1,9 @@
 # How to contribute
 
-There are two ways to submit a paper to the Journal of Unpublished Research:
+There are two ways to submit a contribution to Iceberg:
 1. (preferred) The GitHub way:
  - Make sure you have a GitHub account (free and useful)
- - Clone the JUR repository at https://github.com/unpublished-publishing/JUR
+ - Clone the Iceberg repository at https://github.com/research-iceberg/research-iceberg.github.io
  - Create a new branch, preferably with the author name
  - Create a new directory `papers/AUTHOR_NAME_YYYYMM`, where `YYYY` is year and `MM` month
  - Copy the file `papers/template.tex.md` to `papers/AUTHOR_NAME_YYYYMM/new_file_name.tex.md`
@@ -16,9 +16,9 @@ There are two ways to submit a paper to the Journal of Unpublished Research:
  - Wait for acceptance by the editor
 
 In case of any problems and/or need of help concerning GitHub workflows, do not hesitate to
-[contact the editor](mailto:unpublished.publishing@gmail.com). This is the preferred way and
+[contact the editor](mailto:research.iceberg@gmail.com). This is the preferred way and
 the editor will be happy to help!
-2. Write a text file and send it to the editor via [email](mailto:unpublished.publishing@gmail.com). The editor will review the text, add it to the GitHub repository and publish it when accepted.
+2. Write a text file and send it to the editor via [email](mailto:research.iceberg@gmail.com). The editor will review the text, add it to the GitHub repository and publish it when accepted.
 
 In all cases, every published paper will receive
 - a mention of the reviewer

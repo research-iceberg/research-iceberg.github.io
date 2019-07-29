@@ -21,7 +21,7 @@ Iceberg functions like a scientific journal in that it consists of written contr
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your contribution.
 
 Looking forward to much incovered science,
-</br>
+<br>
 Martin Jucker, Editor in Chief
 
 # Articles

@@ -3,7 +3,7 @@
 There are two ways to submit a contribution to Iceberg:
 1. (preferred) The GitHub way:
  - Make sure you have a GitHub account (free and useful)
- - Clone the Iceberg repository at https://github.com/research-iceberg/research-iceberg.github.io
+ - Clone the Iceberg repository at [https://github.com/research-iceberg/research-iceberg.github.io](https://github.com/research-iceberg/research-iceberg.github.io)
  - Create a new branch, preferably with the author name
  - Create a new directory `papers/AUTHOR_NAME_YYYYMM`, where `YYYY` is year and `MM` month
  - Copy the file `papers/template.tex.md` to `papers/AUTHOR_NAME_YYYYMM/new_file_name.tex.md`

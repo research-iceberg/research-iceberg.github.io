@@ -20,6 +20,8 @@ Iceberg functions like a scientific journal in that it consists of written contr
 
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your contribution.
 
+There is also a [post about the philosophy and creation of Iceberg online](https://climateextremes.org.au/learning-from-your-their-mistakes/).
+
 Looking forward to much incovered science,
 <br>
 Martin Jucker, Editor in Chief

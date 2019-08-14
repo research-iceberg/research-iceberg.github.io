@@ -1,0 +1,78 @@
+"MiMA"
+0001 1 1 0 0 0
+#output files
+"atmos_daily",    24, "hours", 1, "days", "time",
+"daily_avg",      24, "hours", 1, "days", "time",
+"atmos_avg",      -1, "hours", 1, "days", "time",
+#diagnostic field entries. 
+# quantities needed for plevel interpolation,
+ "dynamics",        "bk",         "bk",             "atmos_daily",    "all", .false., "none", 2,
+ "dynamics",        "pk",         "pk",             "atmos_daily",    "all", .false., "none", 2,
+ "dynamics",        "ps",         "ps",             "atmos_daily",    "all", .false., "none", 2,
+# dynamics variables
+ "dynamics",        "ucomp",      "ucomp",          "atmos_daily",    "all", .false., "none", 2,
+ "dynamics",        "temp",       "temp",           "atmos_daily",    "all", .false., "none", 2,
+ "dynamics",        "sphum",      "sphum",          "atmos_daily",    "all", .false.,  "none", 2,
+# "dynamics",        "ucomp",      "ucomp",          "atmos_avg",      "all", .true.,  "none", 2,
+# "dynamics",        "vcomp",      "vcomp",          "atmos_avg",      "all", .true.,  "none", 2,
+# "dynamics",        "temp",       "temp",           "atmos_avg",      "all", .true.,  "none", 2,
+# "dynamics",        "omega",      "omega",          "atmos_avg",      "all", .true.,  "none", 2,
+# "dynamics",        "div",        "div",            "atmos_avg",      "all", .true.,  "none", 2,
+# "dynamics",        "vor",        "vor",            "atmos_avg",      "all", .true.,  "none", 2,
+# "dynamics",        "sphum",      "sphum",          "atmos_avg",      "all", .true.,  "none", 2,
+ "dynamics",        "zsurf",      "zsurf",          "atmos_daily",    "all", .false., "none", 2,
+ "dynamics",        "zsurf",      "zsurf",          "atmos_avg",     " all", .true.,  "none", 2,
+# surface variables
+ "simple_surface",  "t_surf",     "t_surf",         "atmos_daily",    "all", .false., "none", 2,
+# "simple_surface",  "t_surf",     "t_surf",         "daily_avg",      "all", .true., "none", 2,
+ "simple_surface",  "t_surf",     "t_surf",         "atmos_avg",      "all", .true.,  "none", 2,
+# "simple_surface",  "heat_capacity","heat_capacity","atmos_daily",    "all", .false., "none", 2,
+ "simple_surface",  "heat_capacity","heat_capacity","atmos_avg",      "all", .true.,  "none", 2,
+ "simple_surface",  "oflx",        "q-flux",         "atmos_avg",      "all", .true.,  "none", 2,
+ "simple_surface",  "albedo",        "albedo",         "atmos_avg",      "all", .true.,  "none", 2,
+# "simple_surface",  "evap",        "evap",          "atmos_avg",      "all", .true.,  "none", 2,
+ "simple_surface",  "tdt_surf",   "tdt_surf",       "atmos_avg",      "all", .true.,  "none", 2,
+# moisture variables
+  "moist",          "precip",     "precip",         "atmos_daily",    "all", .false., "none", 2,
+  "moist",          "precip",     "precip",         "atmos_avg",      "all", .true.,  "none", 2,
+#  "moist",          "rh",         "rh",             "atmos_daily",    "all", .false., "none", 2,
+# radiation variables
+#  "rrtm_radiation", "tdt_rad",    "tdt_rad",        "atmos_daily",    "all", .false., "none", 2,
+#  "rrtm_radiation", "flux_sw",    "flux_sw",         "atmos_avg",      "all", .true., "none", 2,
+#  "rrtm_radiation", "isr",        "isr",             "atmos_daily",    "all", .false., "none", 2,
+  "rrtm_radiation", "isr",        "isr",             "atmos_avg",      "all", .true., "none", 2,
+#  "rrtm_radiation", "flux_lw",    "flux_lw",         "atmos_avg",      "all", .true., "none", 2,
+#  "rrtm_radiation", "olr",        "olr",             "atmos_daily",    "all", .false., "none", 2,
+  "rrtm_radiation", "olr",        "olr",             "atmos_avg",      "all", .true., "none", 2,
+#  "rrtm_radiation", "coszen",     "coszen",          "atmos_avg",      "all", .true., "none", 2,
+#  "local_heating",  "tdt_lheat",   "tdt_lheat",      "atmos_daily",    "all", .false., "none", 2,
+#=============================================================================================
+#
+#  FORMATS FOR FILE ENTRIES (not all input values are used)
+#  ------------------------
+#
+#"file_name", output_freq, "output_units", format, "time_units", "long_name"
+#
+#
+#   output_freq:  > 0  output frequency in "output_units"
+#                 = 0  output frequency every time step
+#                 =-1  output frequency at end of run
+#
+#   output_units = units used for output frequency
+#                  (years, months, days, minutes, hours, seconds)
+#
+#   time_units   = units used to label the time axis
+#                  (days, minutes, hours, seconds)
+#
+#
+#  FORMAT FOR FIELD ENTRIES (not all input values are used)
+#  ------------------------
+#
+#"module_name", "field_name", "output_name", "file_name", "time_sampling", time_avg, "other_opts", packing
+#
+#   time_avg = .true. or .false.
+#
+#   packing  = 1  double precision
+#            = 2  float
+#            = 4  packed 16-bit integers
+#            = 8  packed 1-byte (not tested?)

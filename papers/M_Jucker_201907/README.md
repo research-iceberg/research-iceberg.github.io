@@ -1,4 +1,5 @@
-*Iceberg, DOI: [10.5281/zenodo.3358284](https://dx.doi.org/10.5281/zenodo.3358284), August 2019*
+*Iceberg, DOI: [10.5281/zenodo.3358284](https://dx.doi.org/10.5281/zenodo.3358284), August 2019* - 
+[pdf version](https://dx.doi.org/10.5281/zenodo.3358284)
 
 # THE SURFACE OF AN AQUAPLANET GCM
 
@@ -105,7 +106,8 @@ Special thanks go to Penelope Maher whose reviewer comments were very constructi
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-*Iceberg, DOI: [10.5281/zenodo.3358284](https://dx.doi.org/10.5281/zenodo.3358284), August 2019*
+*Iceberg, DOI: [10.5281/zenodo.3358284](https://dx.doi.org/10.5281/zenodo.3358284), August 2019* - 
+[pdf version](https://dx.doi.org/10.5281/zenodo.3358284)
 
 ---
 

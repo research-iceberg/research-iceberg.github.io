@@ -1,4 +1,4 @@
-*Iceberg, DOI: X, DATE*
+*Iceberg, DOI: [10.5281/zenodo.3358284](https://dx.doi.org/10.5281/zenodo.3358284), August 2019*
 
 # THE SURFACE OF AN AQUAPLANET GCM
 
@@ -8,7 +8,7 @@ ARC Centre of Excellence for Climate Extremes and Climate Change Research Centre
 [publications@martinjucker.com](mailto:publications@martinjucker.com)
 
 
-Reviewed by Penelope Maher
+Reviewed by [Penelope Maher](http://www.penelopemaher.com)
 
 # Abstract
 This article describes some of the challenges and culprits of working with a mixed layer ocean and trying to arrive at an acceptable climatology with a minimum number of parameters.
@@ -105,7 +105,7 @@ Special thanks go to Penelope Maher whose reviewer comments were very constructi
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-*Iceberg, DOI: X, DATE*
+*Iceberg, DOI: [10.5281/zenodo.3358284](https://dx.doi.org/10.5281/zenodo.3358284), August 2019*
 
 ---
 

@@ -26,6 +26,7 @@ Looking forward to much incovered science,
 <br>
 Martin Jucker, Editor in Chief
 
-# Articles
+# Publications
 
-1. **Martin Jucker**, The surface of an aquaplanet GCM [(accepted)](https://github.com/research-iceberg/research-iceberg.github.io/blob/master/papers/M_Jucker_201907/MiMA_mixed_layer.md). reserved doi: 10.5281/zenodo.3358284
+Please cite all publications using the provided DOI. For PDF version, click on the relevant DOI link.
+- **Martin Jucker**, [_The surface of an aquaplanet GCM_](https://research-iceberg.github.io/papers/M_Jucker_201907/). PDF: [doi.org/10.5281/zenodo.3358284](https://doi.org/10.5281/zenodo.3358284)

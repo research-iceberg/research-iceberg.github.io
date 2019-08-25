@@ -92,4 +92,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 # Comments
 
+Public comments can be submitted to the editor [by clicking on this link](mailto:editor.iceberg@gmail.com?Subject=Comments%20on%20<manuscript_id>). The comments will then be posted below.
+
 <!-- leave blank, this is for post-publication comments -->

@@ -21,7 +21,15 @@
 
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
+          
+          {% if site.social_media_banners %}
+            <section id="social_media_banners">
+                {%if site.twitter %}
+                    <a href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                {% endif %}
+            </section>
+          {% endif %}
+        
           {% if site.show_downloads %}
             <section id="downloads">
               <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
@@ -33,16 +41,7 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      
-        {% if site.social_media_banners %}
-            <section id="social_media_banners">
-                {%if site.twitter %}
-                    <a href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @{{ site.twitter }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                {% endif %}
-            </section>
-        {% endif %}
-        
+      <section id="main_content" class="inner">  
         {{ content }}
       </section>
     </div>

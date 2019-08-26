@@ -1,6 +1,8 @@
 theme: jekyll-theme-slate
 title: "Iceberg"
 description: "Uncover the bulk of research."
+owner_name: Martin Jucker
+owner_url: https://github.com/mjucker
 google_analytics: UA-34422380-3
 social_media_banners: "true"
 twitter: ResearchIceberg

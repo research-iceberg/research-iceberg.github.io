@@ -27,10 +27,10 @@
             <section id="social_media_banners">
                 {%if site.twitter %}
                     <!-- <a href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-                    <a href="https://twitter.com/{{ site.twitter }}" target="_blank" style="font-size:28px;color:grey;"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/{{ site.twitter }}" target="_blank" style="font-size:28px;color:black;background-color:white;"><i class="fab fa-twitter-square"></i></a>
                 {% endif %}
                 {%if site.medium %}
-                    <a href="https://medium.com/@{{ site.medium }}" target="_blank" style="font-size:28px;color:black;"><i class="fab fa-medium"></i></a>
+                    <a href="https://medium.com/@{{ site.medium }}" target="_blank" style="font-size:28px;color:black;background-color:white;"><i class="fab fa-medium"></i></a>
                 {% endif %}
             </section>
           {% endif %}
@@ -54,7 +54,11 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a></p>
+        {% if site.owner_name %}
+          <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.owner_url }}" target="_blank">{{ site.owner_name }}</a></p>
+        {% else %}
+          <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a></p>
+        {% endif %}
         <p>Published with <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
       </footer>
     </div>

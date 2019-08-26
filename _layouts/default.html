@@ -55,10 +55,10 @@
             <span>Follow Iceberg: </span>
               {%if site.twitter %}
                   <!-- <a href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-                  <a class="fa_icons" href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <span>Twitter: </span><a class="fa_icons" href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
               {% endif %}
               {%if site.medium %}
-                  <a class="fa_icons" href="https://medium.com/@{{ site.medium }}" target="_blank"><i class="fab fa-medium-m"></i></a>
+                  <span>Medium: </span><a class="fa_icons" href="https://medium.com/@{{ site.medium }}" target="_blank"><i class="fab fa-medium-m"></i></a>
               {% endif %}
           </section>
         {% endif %}

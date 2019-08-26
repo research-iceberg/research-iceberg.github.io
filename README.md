@@ -21,7 +21,7 @@ Iceberg functions like a scientific journal in that it consists of written contr
 
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your contribution.
 
-There is also a [post about the philosophy and creation of Iceberg online](https://climateextremes.org.au/learning-from-your-their-mistakes/).
+There is also a <a href="https://climateextremes.org.au/learning-from-your-their-mistakes/" target="_blank">post about the philosophy and creation of Iceberg<a/> online.
 
 Looking forward to much uncovered science,
 <br>
@@ -29,5 +29,5 @@ Martin Jucker, Editor-in-Chief
 
 # Publications
 
-Please cite all publications using the provided DOI. For PDF version, click on the relevant DOI link. We are also on [Twitter](https://twitter.com/ResearchIceberg) and our publications are submitted for publication on [Medium](https://medium.com/@ResearchIceberg).
-- **Martin Jucker**, [_The surface of an aquaplanet GCM_](https://research-iceberg.github.io/papers/M_Jucker_201907/). PDF: [doi.org/10.5281/zenodo.3358284](https://doi.org/10.5281/zenodo.3358284), Medium: [friend link](https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40ResearchIceberg%2Fthe-surface-of-an-aquaplanet-gcm-122e1ae3dbad%3Fsource%3Dfriends_link%26sk%3Dfa41a51695c878046061dbc6f4430fab%26fbclid%3DIwAR1X7_adZyYL4vNjbS15e4YENEjUPeNR2W0s6zhUp1E9-pcZ9d7k5ckuGRA&h=AT2jKHMQCGOUT-VGhqz72lainmQMCQWUpx-c77Pd7iVu87tOg_YNFGef-09xucKHqmK4rr0uTsgg51MMOrLgLo5Pt1WPPEpWKVZfs1j9S2r4-aIMYYS0omOsxT7xmdhbafwHpKg)
+Please cite all publications using the provided DOI. For PDF version, click on the relevant DOI link. We are also on <a href="https://twitter.com/ResearchIceberg" target="_blank">Twitter</a> and our publications are submitted for publication on <a href="https://medium.com/@ResearchIceberg" target="_blank">Medium</a>.
+- **Martin Jucker**, [_The surface of an aquaplanet GCM_](https://research-iceberg.github.io/papers/M_Jucker_201907/). PDF: <a href="https://doi.org/10.5281/zenodo.3358284" target="_blank">doi.org/10.5281/zenodo.3358284</a>, Medium: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40ResearchIceberg%2Fthe-surface-of-an-aquaplanet-gcm-122e1ae3dbad%3Fsource%3Dfriends_link%26sk%3Dfa41a51695c878046061dbc6f4430fab%26fbclid%3DIwAR1X7_adZyYL4vNjbS15e4YENEjUPeNR2W0s6zhUp1E9-pcZ9d7k5ckuGRA&h=AT2jKHMQCGOUT-VGhqz72lainmQMCQWUpx-c77Pd7iVu87tOg_YNFGef-09xucKHqmK4rr0uTsgg51MMOrLgLo5Pt1WPPEpWKVZfs1j9S2r4-aIMYYS0omOsxT7xmdhbafwHpKg" target="_blank">friend link</a>

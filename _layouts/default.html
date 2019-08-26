@@ -53,13 +53,13 @@
         {% if site.social_media_banners %}
           <br/>
           <section id="social_media_banners" class="bottom">
-            <span>Follow Iceberg: </span>
+            <span>Follow {{ site.title }}: </span>
               {%if site.twitter %}
                   <!-- <a href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-                  <span>Twitter: </span><a class="fa_icons" href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <span>Twitter: </span><a class="fa_icons small" href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
               {% endif %}
               {%if site.medium %}
-                  <span>Medium: </span><a class="fa_icons" href="https://medium.com/@{{ site.medium }}" target="_blank"><i class="fab fa-medium-m"></i></a>
+                  <span>Medium: </span><a class="fa_icons small" href="https://medium.com/@{{ site.medium }}" target="_blank"><i class="fab fa-medium-m"></i></a>
               {% endif %}
           </section>
         {% endif %}
@@ -70,7 +70,7 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.owner_name %}
-          <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.owner_url }}" target="_blank">{{ site.owner_name }}</a></p>
+          <p class="copyright">{{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.owner_url }}" target="_blank">{{ site.owner_name }}</a></p>
         {% else %}
           <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a></p>
         {% endif %}

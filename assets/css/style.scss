@@ -18,8 +18,14 @@
 #social_media_banners {
     position:absolute;
     left: 10px;
+}
+#social_media_banners.top {
     top: 8px;
 }
+#social_media_banners.bottom {
+    bottom: 0px;
+}
+
 .fa_icons {
   font-size: 24px;
   color: hsl(207, 14%, 37%);

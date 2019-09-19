@@ -15,11 +15,16 @@ get published. We want to enable learning from mistakes in academia. "Mistakes" 
 Because without this, we have no system to make others aware of our mistakes, dead ends and trials to make sure they
 don't repeat them.
 
-Iceberg functions like a scientific journal in that it consists of written contributions which are peer-reviewed and obtain a permanent DOI. It aims to be open to all science and it calls for papers which describe
+Iceberg functions like a scientific journal in that it consists of written contributions which are peer-reviewed and obtain a permanent DOI. In addition to this website, the contributions will also be pushed to [Medium](https://medium.com/@ResearchIceberg), where they may or may not be picked up by the science editors.
+
+Iceberg aims to be open to all science and it calls for papers which describe
+- how-tos for retrieving data, processing data, running models, changing models, plotting, statistics, note taking, public speaking, finishing your PhD, etc.
 - research and/or coding errors and dead ends which have a high potential of being repeated by many more people in the field.
 - the environment, causes and (if possible) solutions.
 
 Please read the [contributions page](CONTRIBUTE.MD) to learn how to submit your contribution.
+
+We also have room for opinion pieces, which are not peer-reviewed and do not obtain a permanent DOI. Iceberg will publish them in [Medium](https://medium.com/@ResearchIceberg) alongside the peer-reviewed publications.
 
 There is also a <a href="https://climateextremes.org.au/learning-from-your-their-mistakes/" target="_blank">post about the philosophy and creation of Iceberg<a/> online.
 
@@ -31,3 +36,6 @@ Martin Jucker, Editor-in-Chief
 
 Please cite all publications using the provided DOI. For PDF version, click on the relevant DOI link. We are also on <a href="https://twitter.com/ResearchIceberg" target="_blank">Twitter</a> and our publications are submitted for publication on <a href="https://medium.com/@ResearchIceberg" target="_blank">Medium</a>.
 - **Martin Jucker**, [_The surface of an aquaplanet GCM_](https://research-iceberg.github.io/papers/M_Jucker_201907/). PDF: <a href="https://doi.org/10.5281/zenodo.3358284" target="_blank">doi.org/10.5281/zenodo.3358284</a>, Medium: <a href="https://medium.com/@ResearchIceberg/the-surface-of-an-aquaplanet-gcm-122e1ae3dbad?source=friends_link&sk=fa41a51695c878046061dbc6f4430fab" target="_blank">friend link</a>
+
+# Opinion pieces
+- **Martin Jucker**, <a href="https://medium.com/@ResearchIceberg/a-truly-exceptional-weather-event-is-happening-right-now-in-the-southern-hemisphere-d1a403f366dd?source=friends_link&sk=e745b4437abddaf6de881207f7c2aeb3" target="_blank">_A truly exceptional weather event is happening right now in the Southern Hemisphere_</a>, 15 Sep 2019

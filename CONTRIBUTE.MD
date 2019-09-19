@@ -1,7 +1,7 @@
 # How to contribute
 
-There are two ways to submit a contribution to Iceberg:
-1. (preferred) The GitHub way:
+There are two ways to submit a **peer-reviewed contribution** to Iceberg:
+1. The GitHub way (preferred):
  - Make sure you have a GitHub account (free and useful)
  - Clone the Iceberg repository at [https://github.com/research-iceberg/research-iceberg.github.io](https://github.com/research-iceberg/research-iceberg.github.io)
  - Create a new branch, preferably with the author name
@@ -25,3 +25,5 @@ In all cases, every published paper will receive
 - a citable DOI via [Zenodo](www.zenodo.org).
 - a rendered PDF, to which the DOI is attributed to.
 - a _Comments_ section at the end of the paper, which will be open to comments from any GitHub user.
+
+For **opinion pieces**, Write a text file (preferentially in markdown, but not necessary) and send it to the editor via [email](mailto:research.iceberg@gmail.com).

@@ -35,7 +35,7 @@ Martin Jucker, Editor-in-Chief
 # Publications
 
 Please cite all publications using the provided DOI. For PDF version, click on the relevant DOI link. We are also on <a href="https://twitter.com/ResearchIceberg" target="_blank">Twitter</a> and our publications are submitted for publication on <a href="https://medium.com/@ResearchIceberg" target="_blank">Medium</a>.
-- **Martin Jucker**, [_The surface of an aquaplanet GCM_](https://research-iceberg.github.io/papers/M_Jucker_201907/). PDF: <a href="https://doi.org/10.5281/zenodo.3358284" target="_blank">doi.org/10.5281/zenodo.3358284</a>, Medium: <a href="https://medium.com/@ResearchIceberg/the-surface-of-an-aquaplanet-gcm-122e1ae3dbad?source=friends_link&sk=fa41a51695c878046061dbc6f4430fab" target="_blank">friend link</a>
+- **Martin Jucker**, [_The surface of an aquaplanet GCM_](https://research-iceberg.github.io/papers/M_Jucker_201907/). PDF: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3358284.svg)](https://doi.org/10.5281/zenodo.3358284), Medium: <a href="https://medium.com/@ResearchIceberg/the-surface-of-an-aquaplanet-gcm-122e1ae3dbad?source=friends_link&sk=fa41a51695c878046061dbc6f4430fab" target="_blank">friend link</a>
 
 # Opinion pieces
 - **Martin Jucker**, <a href="https://medium.com/@ResearchIceberg/a-truly-exceptional-weather-event-is-happening-right-now-in-the-southern-hemisphere-d1a403f366dd?source=friends_link&sk=e745b4437abddaf6de881207f7c2aeb3" target="_blank">_A truly exceptional weather event is happening right now in the Southern Hemisphere_</a>, 15 Sep 2019

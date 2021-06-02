@@ -6,3 +6,4 @@ owner_url: https://github.com/mjucker
 social_media_banners: "true"
 twitter: ResearchIceberg
 medium: ResearchIceberg
+plugins: [jekyll-paginate, jekyll-seo-tag]
